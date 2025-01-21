@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+.quicksand- {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+}
+body{background-image: url(./assets/bg.png);}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 10px 20px;
+}
+hr {
+    border: none;
+    height: 1px;  
+    background-color: #f4880e;}
+.hamburger-menu{
+}
+.school{
+    font-size: 32px;
+    font-weight: bold;
+}
+.home-link{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar .logo {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.navbar .logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+.navbar ul {
+    gap: 50px;
+    list-style: none;
+    display: flex;
+}
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 16px;
+}
+.navbar .contact-button {
+    background-color: #FEA301;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.home{
+color: #FEA301;
+}
+.about{
+color: #01ACFD;
+}
+.facitilities{
+color: #05D4DF;
+}
+.admission{
+color: #5D58EF;
+}
+
+/* 3dot */
+.hamburger-menu {display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px; 
+    width: 25px; 
+  }
+  
+.hamburger-menu span {width: 100%; 
+    height: 4px; 
+    background-color: black; 
+    border-radius: 2px; 
+  }
+
+
+/* banar work */
+.banar{  
+    /* margin: 10px; */
+    margin-left: 100px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    }
+/* .banar{
+    justify-content: center;
+    align-items: center;
+} */
+.heading{font-size: 35px;
+    font-weight: bold;}
+
+.one{color: #FEA301;}
+.two{color: #111111;}
+.three{color: #01ACFD;}
+
+.head-para{font-size: 16px;}
+
+.enroll{font-size: 18px;
+    font-weight: bold;
+    background-color:#111111;
+    padding: 10px;
+    color: white;
+    border-radius: 8px;
+}
+
+.hero{
+    /* margin-top: 500px; */
+    display: flex;
+    margin-top: 35px;}
+
+/* standard carriculum */
+.standard-carriculum{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+.standard{
+    display: flex;
+    gap: 25px;
+    border-radius: 18px;
+     
+}
+.carriculum-one{
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #B3E8FF;
+}
+.carriculum-two{
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    background-color:#eedbb1;
+}
+.carriculum-three{
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    background-color:#F2E8FF;
+}
+.btn-one{
+    background-color: #B3E8FF;
+    border: none;
+    color: #42b6f5;
+    font-size: 12px;
+    font-weight: bold;
+}
+.btn-two{
+    background-color: #FCEBC6;
+    border: none;
+    color: #F0AA00;
+    font-size: 12px;
+    font-weight: bold;
+}
+.btn-three{
+    background-color:#F2E8FF ;
+    border: none;
+    color: #8700FF;
+    font-size: 12px;
+    font-weight: bold;
+}
+  .icon-container {
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+  }
+
+  .icon {
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }
+
+  /* our stories */
+  .stories{background: linear-gradient(#efd5a7,#f8deb1)
+}
+  .our-stories{
+        text-align: center;
+        font-size: 35px;
+        font-weight: bold;
+  }
+  .h-five{
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .story-hero{
+    display: flex;
+    /* width: 540px; */
+
+  }
+  .hero-containar{
+    /* width: 500px; */
+    background-color: #FFFFFF;
+    border-radius: 8px;
+  }
+.hero-img{width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  .h-para{
+    color: #666666;
+    font-weight: bold;
+    font-size: 15px;
+    font-weight: 500px;
+  }
+  .hero-btn{
+    margin-left:30px;
+    margin-top: -50px;
+    background-color: #3CD8E8;
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
+  }
+.card-btn{
+    background-color: #95B226;
+    font-size: 18px;
+    border-radius: 30px;
+    border: none;
+}
+.card-btn-two{
+    background-color: #5D58F0;
+    font-size: 18px;
+    border-radius: 30px;
+    border: none;
+}
+.card{
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+}
+.card-one,.card-two,.card-three, .card-four{
+    background-color: #FFFFFF;
+    border-radius: 16px;
+}
+.view{
+    justify-content: center;
+    margin-top: 30px;
+    text-align: center;
+    
+}
+.view-all{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    padding: 10px;
+}
+.kids-logo{
+    color: white;
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+ }
+.about-school li a{
+    text-decoration: none;
+    color: white;
+}
+/* .about-school{
+    gap: 1500px;
+} */
+.foot{
+    width: 300px;
+}
+ 
+.about-school li{
+    list-style: none;
+    color: white;
+    
+}
+#para{
+    color: white;
+}
+.all-footer{
+    display: flex;
+}
+#ab{
+    font-size: 20px;
+    font-weight: bold;
+}
+footer{
+    background-color: #01ACFD;
+}
+.tauch{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.all-footer{
+    /* width: 1440px; */
+    margin-top: 60px;
+    justify-content: space-around;
+}
+/* display hide  */
+/* display hide  */
+.hide{
+    display: none;
+}
+ 
+
+
+
+
+
+
+/* responsive work here */
+/* here media quary small device*/
+@media screen and (max-width: 576px) {
+    .navbar {
+            flex-direction: column;
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+        }
+    .home-link{
+        display:none;
+    }
+.hero-kid img{
+    width: 50;
+}
+    .navbar{
+        display: none;
+    }
+    .navbar ul {
+            flex-direction: column;
+            width: 100%;
+            padding: 0;
+        }
+    .navbar .contact-button {
+            width: 100%;
+            text-align: center;
+            margin-top: 5px;
+        }
+    .heading{
+            font-size: 25px;
+            /* justify-content: center; */
+            justify-items: center ;
+        }
+.hamburger-menu span{
+    height: 3px; 
+    }
+.hamburger-menu{
+    display: flex;
+    margin-left: auto;
+}
+/* .hero-kid{
+    flex-direction: column;
+    width: 50%;
+} */
+.hero{
+    flex-direction:column;
+    flex-direction: column-reverse;
+    grid-template-columns: repeat(1,1fr);
+    justify-content: center;
+    }
+.hero img{
+    flex-direction: column;
+    width: 100%;
+}
+  
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    }
+.banar{  
+    margin: 10px;
+    /* margin-left: 100px;  */
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    }
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    }
+.nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+  }
+.enroll{
+    align-items: center;
+    justify-content: center;
+
+  }
+/* my carriculum */
+.my-carriculum{
+    width: 100%;
+}
+.standard{
+    flex-direction: column;
+    /* width: 50%; */
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.containar{
+    display: none;
+}
+.hero-containar{
+    display: none;
+}
+.stories{
+    width: 100%;
+    background: linear-gradient(none)
+}
+.card{
+    flex-direction: column;
+    display: grid;
+    width: 100%;
+    gap: 5px;
+    grid-template-columns: repeat(2,1fr);
+    }
+.card img{
+    width: 50%;
+    }
+.foot{width: 50%;}
+.all-footer{
+    justify-content: space-between;
+    margin: 5px;
+    flex-direction: column;
+    grid-template-columns: repeat(1,1fr);
+}
+ 
+
+
+/* responsive */
+/* mediam devise rensponsive work */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .standard{
+        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .hero{
+        flex-direction:column;
+        flex-direction: column-reverse;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+        }
+    
+}
+}
+@media screen and (min-width:992px){
+    .hamburger-menu{
+        display: none;
+}
+}
