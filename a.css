@@ -86,7 +86,7 @@ color: #5D58EF;
 
 /* banar work */
 .banar{  
-    /* margin: 10px; */
+    margin: 100px;
     margin-left: 100px;
     justify-content: center;
     justify-items: center;
@@ -96,7 +96,8 @@ color: #5D58EF;
     justify-content: center;
     align-items: center;
 } */
-.heading{font-size: 35px;
+.heading{
+    font-size: 35px;
     font-weight: bold;}
 
 .one{color: #FEA301;}
@@ -234,6 +235,7 @@ color: #5D58EF;
     border: none;
   }
 .card-btn{
+    /* position: absolute; */
     background-color: #95B226;
     font-size: 18px;
     border-radius: 30px;
