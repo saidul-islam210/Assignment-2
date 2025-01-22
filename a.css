@@ -293,13 +293,13 @@ color: #5D58EF;
     font-weight: bold;
  }
 .about-school li a{
+    /* margin-right: 10px; */
     text-decoration: none;
     color: white;
  }
 .foot{
     width: 300px;
  }
- 
 .about-school li{
     list-style: none;
     color: white;
@@ -455,6 +455,7 @@ footer{
 .card img{
     width: 100%;
     }
+ 
 /* .foot{margin-right: 5px;} */
 .foot{width: 50%;}
 .all-footer{
