@@ -173,16 +173,22 @@ color: #5D58EF;
     font-size: 12px;
     font-weight: bold;
 }
-.icon-container {
-    margin-top: 50px;
+.icon:hover{
+    background-color: #33fc25;
+}
+.i-con{
     justify-content: center;
     align-items: center;
     display: flex;
     gap: 10px;
+}
+.icon-container {
+    margin-top: 50px;
   }
 
 .icon {
     width: 50px;
+    border: none;
     height: 50px;
     background-color: orange;
     color: white;
