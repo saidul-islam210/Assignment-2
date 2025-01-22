@@ -35,11 +35,11 @@ hr {
     align-items: center;
 }
 .navbar .logo img {
-    height: 40px;
+    height: 30px;
     margin-right: 10px;
 }
 .navbar ul {
-    gap: 50px;
+    gap: 60px;
     list-style: none;
     display: flex;
 }
@@ -301,9 +301,9 @@ color: #5D58EF;
 #para{
     color: white;
 }
-.all-footer{
+/* .all-footer{
     display: flex;
-}
+} */
 #ab{
     font-size: 20px;
     font-weight: bold;
@@ -317,7 +317,9 @@ footer{
     font-weight: bold;
 }
 .all-footer{
+    display: flex;
     /* width: 1440px; */
+    margin-right: 10px;
     margin-top: 60px;
     justify-content: space-around;
 }
@@ -343,7 +345,7 @@ footer{
         display:none;
     }
 .hero-kid img{
-    width: 50;
+    width: 100%;
 }
     .navbar{
         display: none;
@@ -447,8 +449,10 @@ footer{
 .card img{
     width: 100%;
     }
+/* .foot{margin-right: 5px;} */
 .foot{width: 50%;}
 .all-footer{
+    /* width: 50%; */
     justify-content: space-between;
     margin: 5px;
     flex-direction: column;
